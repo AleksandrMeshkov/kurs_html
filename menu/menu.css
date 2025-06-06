@@ -1,0 +1,30 @@
+nav {
+
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul.menu li {
+            margin-right: 15px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+ul.menu li a:hover {
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+}
